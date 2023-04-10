@@ -1,13 +1,16 @@
 import "./mainContent.css";
 
-function MainContent(propsName , propsInformation) {
+function MainContent(props) {
+   
    return(
     <div className="MainContent">
           
           <div className ="ContentBoxFoods">
-              <div className="BoxPicFoods"></div>
-              <h3>{propsName.propsName}</h3>
-              <p>{propsName.propsInformation}</p>
+              <div className="BoxPicFoods">
+               <img src={props.imgSrc} alt="pic" />
+              </div>
+              <h3>{props.propsName}</h3>
+              <p>{props.propsInformation}</p>
               <button>add</button>
           </div>
     </div>
