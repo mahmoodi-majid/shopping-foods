@@ -1,6 +1,6 @@
 import "./mainContent.css";
 
-function MainContent({propsName,propsInformation,imgSrc}) {
+function MainContent({id,ProductName,Price,imgSrc,about,cound}) {
    
    return(
     <div className="MainContent">
@@ -9,8 +9,8 @@ function MainContent({propsName,propsInformation,imgSrc}) {
               <div className="BoxPicFoods">
                <img src={imgSrc} alt="pic" />
               </div>
-              <h3>{propsName}</h3>
-              <p>{propsInformation}</p>
+              <h3>{ProductName}</h3>
+              <p>{about}</p>
               <button>add</button>
           </div>
     </div>

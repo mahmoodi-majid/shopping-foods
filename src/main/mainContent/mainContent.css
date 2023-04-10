@@ -19,7 +19,7 @@
   margin-bottom: 27px;
   border-radius: 20px;
 }
-.BoxPicFoods {
+.BoxPicFoods img {
   width: 200px;
   height: 190px;
   border: none;
@@ -32,6 +32,10 @@
   align-items: center;
   margin: 20px 0px;
   color: white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 .ContentBoxFoods h3 {
   font-size: 33px;
