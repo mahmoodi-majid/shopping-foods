@@ -1,4 +1,4 @@
-import './mainTop.css'
+import "./mainTop.css";
 
 function MainTop() {
   return (
