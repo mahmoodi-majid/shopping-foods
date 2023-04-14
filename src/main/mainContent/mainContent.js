@@ -1,18 +1,20 @@
 import "./mainContent.css";
 
-function MainContent({ id, ProductName, Price, imgSrc, about, cound }) {
-  return (
+function MainContent(props) {
+  const {product} = props;
+  console.log(props.product)
+  return(
     <div className="MainContent">
       <div className="ContentBoxFoods">
         <div className="BoxPicFoods">
-          <img src={imgSrc} alt="pic" />
+          <img src={product.imgSrc} alt="pic" />
         </div>
-        <h3>{ProductName}</h3>
-        <p>{about}</p>
+        <h3>{product.ProductName}</h3>
+        <p>{product.about}</p>
         <button>add</button>
       </div>
     </div>
-  );
+  )
 }
 
 export default MainContent;

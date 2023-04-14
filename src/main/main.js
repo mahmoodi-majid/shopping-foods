@@ -3,7 +3,7 @@ import MainContent from "./mainContent/mainContent";
 import "./main.css";
 
 function Main() {
-  const AllProduct = [
+  const allProducts = [
     {
       id: 1,
       ProductName: "Ghormeh sabzi",
@@ -81,14 +81,11 @@ function Main() {
     <div className="mine">
       <MainTop></MainTop>
       <div className="mineBox">
-        <MainContent {...AllProduct[0]}></MainContent>
-        <MainContent {...AllProduct[1]}></MainContent>
-        <MainContent {...AllProduct[2]}></MainContent>
-        <MainContent {...AllProduct[3]}></MainContent>
-        <MainContent {...AllProduct[4]}></MainContent>
-        <MainContent {...AllProduct[5]}></MainContent>
-        <MainContent {...AllProduct[6]}></MainContent>
-        <MainContent {...AllProduct[7]}></MainContent>
+        {
+          allProducts.map((product)=>{
+            return <MainContent product={product}/>
+          })
+        }
       </div>
     </div>
   );
