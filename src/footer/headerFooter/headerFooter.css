@@ -1,0 +1,67 @@
+.headerFooter {
+  background-color: #3cadd4;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.titleFooter {
+  color: white;
+  margin-top: 220px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.descriptionFooter {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.surveyForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.surveyForm input {
+  width: 27%;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  margin-left: 4px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin-bottom: 39px;
+  line-height: 38px;
+}
+#cooment {
+  resize: none;
+  width: 54%;
+  height: 300px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  margin-bottom: 30px;
+}
+.btnSendMessage {
+  background-color: black;
+  color: white;
+  width: 40%;
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+}
