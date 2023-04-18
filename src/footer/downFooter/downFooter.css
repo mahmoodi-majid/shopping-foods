@@ -1,0 +1,12 @@
+.downFooter {
+  background-color: #383b43;
+  height: 150px;
+}
+.downFooter ul {
+    display: flex;
+    list-style-type: none;
+}
+.downFooterItem {
+  color: #858585;
+  margin: 3em;
+}
